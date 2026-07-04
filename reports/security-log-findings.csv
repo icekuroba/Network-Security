@@ -1,6 +1,0 @@
-severity,source,event_type,message,recommendation
-HIGH,192.168.56.20,SSH brute force attempt,5 failed SSH login attempts detected from 192.168.56.20.,"Restrict SSH access, use key-based authentication, and consider fail2ban or firewall rules."
-HIGH,192.168.56.44,Suspicious web probing,"Suspicious web paths requested by 192.168.56.44: /.env, /admin, /etc/passwd, /phpmyadmin, /wp-admin.","Review web logs, block abusive IPs, and ensure sensitive files are not publicly exposed."
-MEDIUM,192.168.56.44,Multiple 404 errors,5 HTTP 404 responses detected from 192.168.56.44.,Investigate possible directory brute forcing or automated scanning.
-MEDIUM,192.168.56.60,Firewall blocked traffic,"2 blocked connection attempt(s) from 192.168.56.60. Target port(s): 22, 3389.",Review firewall logs and consider blocking repeated suspicious sources.
-MEDIUM,192.168.56.61,Firewall blocked traffic,1 blocked connection attempt(s) from 192.168.56.61. Target port(s): 3306.,Review firewall logs and consider blocking repeated suspicious sources.
