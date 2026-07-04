@@ -1,0 +1,11 @@
+# Nmap 7.98 scan initiated Sat Jul  4 12:58:01 2026 as: nmap -sV -p 22,80,8080 -oN scans/after-hardening.txt 10.0.2.15
+Nmap scan report for Ubuntu.local (10.0.2.15)
+Host is up (0.000050s latency).
+
+PORT     STATE  SERVICE    VERSION
+22/tcp   closed ssh
+80/tcp   closed http
+8080/tcp closed http-proxy
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul  4 12:58:01 2026 -- 1 IP address (1 host up) scanned in 0.39 seconds
