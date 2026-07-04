@@ -1,0 +1,7 @@
+Jul 04 10:10:01 ubuntu sshd[1201]: Failed password for invalid user admin from 192.168.56.20 port 49222 ssh2
+Jul 04 10:10:04 ubuntu sshd[1202]: Failed password for invalid user admin from 192.168.56.20 port 49224 ssh2
+Jul 04 10:10:07 ubuntu sshd[1203]: Failed password for invalid user root from 192.168.56.20 port 49226 ssh2
+Jul 04 10:10:10 ubuntu sshd[1204]: Failed password for invalid user test from 192.168.56.20 port 49228 ssh2
+Jul 04 10:10:13 ubuntu sshd[1205]: Failed password for invalid user oracle from 192.168.56.20 port 49230 ssh2
+Jul 04 10:12:41 ubuntu sshd[1210]: Accepted password for icekuroba from 192.168.56.1 port 50122 ssh2
+Jul 04 10:15:01 ubuntu sudo: icekuroba : TTY=pts/0 ; PWD=/home/icekuroba ; USER=root ; COMMAND=/usr/bin/apt update
