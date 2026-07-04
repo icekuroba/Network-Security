@@ -1,0 +1,8 @@
+services:
+  nginx-lab:
+    image: nginx:latest
+    container_name: nginx-hardened-lab
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro

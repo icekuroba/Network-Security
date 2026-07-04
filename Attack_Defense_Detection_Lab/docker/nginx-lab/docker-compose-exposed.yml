@@ -1,0 +1,8 @@
+services:
+  nginx-lab:
+    image: nginx:latest
+    container_name: nginx-exposed-lab
+    ports:
+      - "0.0.0.0:8080:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
