@@ -1,7 +1,5 @@
 # Security Log Analyzer
 
-## Overview
-
 Security Log Analyzer is a Python-based cybersecurity project that analyzes sample security logs and detects suspicious activity related to authentication, web probing, and firewall-blocked traffic.
 
 The project demonstrates a basic blue team workflow:
