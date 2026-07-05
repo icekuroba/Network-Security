@@ -1,7 +1,5 @@
 # Attack Defense Detection Lab
 
-## Overview
-
 Attack Defense Detection Lab is a controlled cybersecurity lab focused on service exposure, network scanning, evidence collection, hardening, and post-mitigation validation.
 
 The project demonstrates a complete security workflow:
