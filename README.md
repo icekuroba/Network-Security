@@ -1,7 +1,5 @@
 # Network Security
 
-## Overview
-
 This repository contains hands-on network security projects focused on defensive security, service exposure validation, firewall hardening, log analysis, detection workflows, and security automation.
 
 The purpose of this repository is to document practical cybersecurity labs that combine networking, Linux, Python, Docker, Nmap, firewall logs, and defensive analysis.
